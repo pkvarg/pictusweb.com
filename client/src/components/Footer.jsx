@@ -11,7 +11,7 @@ const Footer = () => {
         Javascript Mastery
       </a>
       <a className='developer' href='https://pictusweb.sk/en' target='_blank'>
-        &#60;&#47;&#62; by PICTUSWEB Development
+        &#60;&#47;&#62; PICTUSWEB Development
       </a>
     </div>
   )

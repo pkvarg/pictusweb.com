@@ -4,6 +4,7 @@
 
 * {
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 480px) {
@@ -41,4 +42,17 @@
 
 .footer a:hover {
   background-color: #6469ff;
+}
+
+@media (min-width: 100px) and (max-width: 990px) {
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    width: max-content;
+  }
+
+  .footer a,
+  .footer h1 {
+    padding: 7.5px;
+  }
 }
