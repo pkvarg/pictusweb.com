@@ -21,3 +21,24 @@
   background-color: #666e75;
   border-radius: 5px;
 }
+
+.footer {
+  background-color: #464ab3;
+  color: #fff;
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  padding: 50px;
+}
+
+.footer h1,
+.footer a {
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.footer a:hover {
+  background-color: #6469ff;
+}
